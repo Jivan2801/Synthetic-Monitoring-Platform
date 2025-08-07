@@ -35,7 +35,4 @@ Maximum RTT       : 77.0 ms
 Standard Deviation: None ms
 ```
 
-## 📁 Folder Name Suggestion
-
-`ping-monitoring-tool`
 
