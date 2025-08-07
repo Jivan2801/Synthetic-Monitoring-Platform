@@ -8,6 +8,7 @@ This tool reads a YAML configuration file containing a list of servers and a tim
 servers:
   - google.com
   - github.com
+  - invalid.domain
 interval: 10
 ```
 
