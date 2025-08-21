@@ -1,0 +1,29 @@
+groups:
+- name: ping-monitor-alerts
+  rules:
+  - alert: HostDown
+    expr: ping_success == 0
+    for: 2m
+    labels:
+      severity: critical
+    annotations:
+      summary: "Ping target down ({{ $labels.destination }})"
+      description: "No successful pings for 2 minutes."
+
+  - alert: HighLatency
+    expr: avg_over_time(ping_rtt_avg_ms[5m]) > 150
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: "High latency ({{ $labels.destination }})"
+      description: "5m avg RTT > 150ms."
+
+  - alert: PacketLossHigh
+    expr: avg_over_time(ping_packet_loss_rate[5m]) > 10
+    for: 5m
+    labels:
+      severity: warning
+    annotations:
+      summary: "Packet loss > 10% ({{ $labels.destination }})"
+      description: "Sustained packet loss over 5 minutes."
