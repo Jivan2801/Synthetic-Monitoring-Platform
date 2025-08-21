@@ -1,0 +1,5 @@
+servers:
+  - google.com
+  - github.com
+  - invalid.domain
+interval: 10
