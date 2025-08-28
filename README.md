@@ -62,15 +62,6 @@ This project is a **Ping Monitoring Tool** that uses Python, Prometheus, and Gra
 
 ---
 
-## 🖥️ Example Dashboard Panels
-
-- **Graph Panel – Ping RTT Over Time**
-  - Shows latency variations across servers.
-- **Gauge Panel – Server Availability**
-  - Color-coded gauges (Red = Down, Green = Up).  
-
----
-
 ## 🚨 Alerts
 Defined in `rules.yml`:
 - **HostDown** → If a server is unreachable.  
