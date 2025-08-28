@@ -11,7 +11,12 @@ This project is a **Ping Monitoring Tool** that uses Python, Prometheus, and Gra
 - 📉 **Grafana Dashboards**:  
   - **Graph Panel** → Latency trends (`ping_rtt_avg_ms`).  
   - **Gauge Panel** → Availability/Latency with color-coded thresholds.  
-- 🚨 **Alert Rules (rules.yml)**: Detects downtime, high latency, or packet loss.  
+- 🚨 **Alert Rules (rules.yml)**: Detects downtime, high latency, or packet loss.
+
+---
+
+## System Architecture
+![System Architecture](./dashboard-screenshots/system-architecture.png)
 
 ---
 
