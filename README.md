@@ -70,11 +70,5 @@ Defined in `rules.yml`:
 
 ---
 
-## 📸 Screenshots (Example)
-- Graph showing RTT trends.  
-- Gauge showing availability & latency by server.  
-
----
-
 ## ✅ Summary
 This project demonstrates how to integrate **Python, Prometheus, and Grafana** into a simple **Synthetic Monitoring Platform**. It helps visualize server health at a glance and provides early alerts for downtime or degraded performance.
