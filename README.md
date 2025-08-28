@@ -16,7 +16,7 @@ This project is a **Ping Monitoring Tool** that uses Python, Prometheus, and Gra
 ---
 
 ## System Architecture
-![System Architecture](./Grafana Dashboards/system-architecture.png)
+![System Architecture](./Grafana%20Dashboards/system-architecture.png)
 
 ---
 
