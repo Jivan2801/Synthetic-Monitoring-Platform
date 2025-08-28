@@ -2,4 +2,11 @@ servers:
   - google.com
   - github.com
   - invalid.domain
+  - cloudflare.com
+  - twitter.com
+  - reddit.com
+  - wikipedia.org
+  - stackoverflow.com
+  - microsoft.com
+  - apple.com
 interval: 10
