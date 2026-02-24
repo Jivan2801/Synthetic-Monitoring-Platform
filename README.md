@@ -133,3 +133,9 @@ This project demonstrates how to integrate **Python, Prometheus, Grafana, and Al
 - 🖥️ Visualize with Grafana dashboards.  
 - 🚨 Trigger alerts with Prometheus rules.  
 - 📧 Get real-time email notifications with Alertmanager.  
+
+---
+
+## License
+
+MIT
